@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Array</title>
+  </head>
+  <body>
+    <p id="val"></p>
+    <script>
+      var arr = ["Adi", "KBA", "Matrix"];
+      arr[1] = "CEO";
+      var strings = "";
+      for (var i = 0; i < arr.length; i++) {
+        strings += arr[i] + "<br>";
+      }
+      document.getElementById("val").innerHTML = strings;
+    </script>
+  </body>
+</html>

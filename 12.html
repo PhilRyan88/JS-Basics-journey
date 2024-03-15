@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mouse events</title>
+  </head>
+  <body>
+    <p id="val"></p>
+    <button onclick="document.getElementById('val').innerHTML=Date()">
+      Click</button
+    ><br /><br />
+    <button onmouseover="document.getElementById('val').innerHTML=Date()">
+      Mouse Over
+    </button>
+    <button onmouseleave="document.getElementById('val').innerHTML=Date()">
+      Mouse Leave
+    </button>
+    <button onkeydown="document.getElementById('val').innerHTML=Date()">
+      Key Down
+    </button>
+  </body>
+</html>

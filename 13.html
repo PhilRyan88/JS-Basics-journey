@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Colors</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Refresh the Page</h1>
+    <script>
+      var bgcol = [
+        "#98129a",
+        "#789987",
+        "#20124d",
+        "#8d8996",
+        "#cb8bb2",
+        "#51739d",
+      ];
+      document.body.style.background =
+        bgcol[Math.floor(Math.random() * bgcol.length)];
+    </script>
+  </body>
+</html>
